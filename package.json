@@ -1,0 +1,19 @@
+{
+  "name": "react-native-image-carousel-slider",
+  "version": "1.0.4",
+  "description": "This package is made to make it easier for you to display the image sliders",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arwysyah/react-native-image-carousel-slider.git"
+  },
+  "author": "arwysyah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arwysyah/react-native-image-carousel-slider/issues"
+  },
+  "homepage": "https://github.com/arwysyah/react-native-image-carousel-slider#readme"
+}
