@@ -83,7 +83,7 @@ class App extends Component {
         return(
             <CarouselDisplay 
             screen={'DisplayFullImages'} 
-          fixedData={carDetails[1].image}
+          fixedData={image}
           screenNavigation={this.props.navigation}
           active={this.state.active}
           handleMovements={this.handleMovements}
