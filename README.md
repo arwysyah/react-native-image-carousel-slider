@@ -2,6 +2,7 @@
 # 👨‍💻 react-native-image-carousel-slider
 
 
+
 <p align="center">
   <a href="https://reactjs.org/">
     <img
@@ -38,7 +39,7 @@
     <img title="Followers" src="https://img.shields.io/github/followers/arwysyah?style=social">
   </a>
   <a href="https://github.com/prettier/prettier"><img src="https://img.shields.io/badge/styled_with-prettier-ff69b4.svg"></a>
-
+version 1.0.9
  
 </p>
 
@@ -58,7 +59,11 @@ npm install react-native-image-carousel-slider --save
 ## USAGE
 ```js
 
-import ScrollImages from react-native-image-carousel-slider
+import CarouselDisplay from react-native-image-carousel-slider
+const image = ['https://www.bradykesner.com/wp-content/uploads/2016/11/clingmans-dome-sunset-smoky-mountain-national-park-1030x687.jpg',
+'https://www.nps.gov/blri/learn/nature/images/Bear-Trap-Gap-MP-428-robert-Stevens-web.jpg?maxwidth=1200&maxheight=1200&autorotate=false',
+'https://static.rootsrated.com/image/upload/s--U0wjV1dP--/t_rr_large_traditional/kzw1j2a9jcad36x6ytof.jpg'
+]
 class App extends Component {
     state={
         active:0
@@ -75,7 +80,7 @@ class App extends Component {
   };
     render(){
         return(
-            <ScrollImages  
+            <CarouselDisplay 
             screen={'DisplayFullImages'} 
           fixedData={carDetails[1].image}
           screenNavigation={this.props.navigation}
@@ -88,6 +93,7 @@ class App extends Component {
     }
 }
 ```
+<img src="screen.jpeg" alt="Girl in a jacket">
 
 
 ## Current API(Property)

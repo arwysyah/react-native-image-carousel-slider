@@ -75,13 +75,13 @@ export default class CarouselDisplay extends React.PureComponent {
 const styles = StyleSheet.create({
   backgroundImage: {
     width: Dimensions.get("window").width,
-    height: (Dimensions.get("window").width * 65) / 100,
+    height: (Dimensions.get("window").width * 80) / 100,
     backgroundColor: "black",
   },
   paging: {
     fontSize: 15,
     color: "#888",
-  },
+  }, 
   pagingActive: {
     fontSize: 15,
     color: "white",
