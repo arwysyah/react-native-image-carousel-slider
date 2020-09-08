@@ -31,7 +31,7 @@ export default class CarouselDisplay extends React.PureComponent {
             flexDirection: "row",
             position: "absolute",
             alignSelf: "center",
-            marginTop: 170,
+            marginTop: 195,
             justifyContent: "center",
             zIndex: 9999,
           }}
@@ -75,15 +75,18 @@ export default class CarouselDisplay extends React.PureComponent {
 const styles = StyleSheet.create({
   backgroundImage: {
     width: Dimensions.get("window").width,
-    height: (Dimensions.get("window").width * 80) / 100,
+    height: (Dimensions.get("window").width * 75) / 100,
     backgroundColor: "black",
   },
   paging: {
     fontSize: 15,
     color: "#888",
+    top:35
   }, 
   pagingActive: {
     fontSize: 15,
     color: "white",
+    top:35
+ 
   },
 });

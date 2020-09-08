@@ -39,7 +39,7 @@
     <img title="Followers" src="https://img.shields.io/github/followers/arwysyah?style=social">
   </a>
   <a href="https://github.com/prettier/prettier"><img src="https://img.shields.io/badge/styled_with-prettier-ff69b4.svg"></a>
-version 1.0.9
+
  
 </p>
 
@@ -48,6 +48,7 @@ version 1.0.9
 ```bash
 
 ## Installation
+Version 1.1.4
 
 npm install react-native-image-carousel-slider --save
 
@@ -106,6 +107,7 @@ active | PropTypes.number| display active image that choosed
 handleMovements | PropTypes.object | Native Event
 
 
+
 ##  Project Documentation
 
 
@@ -115,7 +117,5 @@ handleMovements | PropTypes.object | Native Event
 Arwy Syahputra Siregar
 github.com/arwysyah
 
-
+```
 <p > Copyright ©</p> <p style="color:green;">by Arwy Syahputra Siregar</p>
-
-
