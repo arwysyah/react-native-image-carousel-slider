@@ -99,6 +99,7 @@ class App extends Component {
 
 
 ## Current API(Property)
+simple carousel
 Property | Type | Description
 ------------ | ------------- | -------------
 screen | PropTypes.string | (optional)Screen Navigation and will passing property 'detailImage' as array
